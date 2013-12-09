@@ -1,0 +1,13 @@
+{
+  "name":"FxOS-NONO",
+  "developer":{
+    "name":"Takahiro Uemura",
+    "url":"http://d.hatena.ne.jp/Uemmra3/"
+  },
+  "description":"a simulator of RC-NONO(by LAILE)",
+  "icons":{
+    "128":"./icon.png"
+  },
+  "launch_path":"./index.html",
+  "orientation":"landscape"
+}
