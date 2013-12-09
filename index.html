@@ -422,7 +422,7 @@
   }
 
   function about(){
-    alert("作者のホームページ：http://web.kyoto-inet.or.jp/people/t_uemura/");
+    alert("The site of the creator is http://web.kyoto-inet.or.jp/people/t_uemura/");
   }
 ////////////////////////////////////////
 //		使い方表示
@@ -495,10 +495,10 @@
 <SUB>SMP</SUB><BR><INPUT TYPE="radio" NAME="lt" onCLICK="l=7;chira(smp)"></TD>
 
 <TD><BR><NOBR>
-<INPUT TYPE="button" VALUE="F／>" onCLICK="if(ent==0 || ent==3){fn=1;fu(12);};">
-<INPUT TYPE="button" VALUE="7／**" onCLICK="push(7)">
-<INPUT TYPE="button" VALUE="8／trp+" onCLICK="push(8)">
-<INPUT TYPE="button" VALUE="9／trp-" onCLICK="push(9)">
+<INPUT TYPE="button" VALUE="F/>" onCLICK="if(ent==0 || ent==3){fn=1;fu(12);};">
+<INPUT TYPE="button" VALUE="7/**" onCLICK="push(7)">
+<INPUT TYPE="button" VALUE="8/trp+" onCLICK="push(8)">
+<INPUT TYPE="button" VALUE="9/trp-" onCLICK="push(9)">
 </NOBR></TD>
 
 <TR><TD>
@@ -507,9 +507,9 @@
 <FONT SIZE=4> FUNCT</FONT></TD><TD COLSPAN=5><INPUT TYPE="text" NAME="funct" value="------" SIZE=14>
 </TD><TD><NOBR>
 <INPUT TYPE="button" VALUE="=C=" onCLICK="cl();fu(13);">
-<INPUT TYPE="button" VALUE="4／===" onCLICK="push(4)">
-<INPUT TYPE="button" VALUE="5／RC+" onCLICK="push(5)">
-<INPUT TYPE="button" VALUE="6／RC-" onCLICK="push(6)">
+<INPUT TYPE="button" VALUE="4/===" onCLICK="push(4)">
+<INPUT TYPE="button" VALUE="5/RC+" onCLICK="push(5)">
+<INPUT TYPE="button" VALUE="6/RC-" onCLICK="push(6)">
 </NOBR></TD>
 <TR><TD>
 <INPUT TYPE="button" VALUE="MP" onCLICK="smp=map;map=0;fu(2);">
@@ -517,31 +517,32 @@
 <FONT SIZE=4> FINAL</FONT></TD><TD COLSPAN=5><INPUT TYPE="text" NAME="finalsc" SIZE=14>
 </TD><TD><NOBR>
 <INPUT TYPE="button" VALUE="ENT" onCLICK="enter()">
-<INPUT TYPE="button" VALUE="1／OD" onCLICK="push(1)">
-<INPUT TYPE="button" VALUE="2／F==" onCLICK="push(2)">
-<INPUT TYPE="button" VALUE="3／+-N" onCLICK="push(3)">
+<INPUT TYPE="button" VALUE="1/OD" onCLICK="push(1)">
+<INPUT TYPE="button" VALUE="2/F==" onCLICK="push(2)">
+<INPUT TYPE="button" VALUE="3/+-N" onCLICK="push(3)">
 </NOBR></TD>
 <TR><TD>
 <INPUT TYPE="button" VALUE="ON" onCLICK="onoff();">
 </TD><TD COLSPAN=3>
 <FONT SIZE=4> MAPsc</FONT></TD><TD COLSPAN=5><INPUT TYPE="text" NAME="mapsc" SIZE=14>
 </TD><TD><NOBR>
-<INPUT TYPE="button" VALUE="＜==" onCLICK="l=(l+7)%8;chira()">
-<INPUT TYPE="button" VALUE="0／(\)" onCLICK="push(0)">
-<INPUT TYPE="button" VALUE=" . ／clk" onCLICK="period()">
-<INPUT TYPE="button" VALUE="==＞" onCLICK="l=(l+1)%8;chira()">
+<INPUT TYPE="button" VALUE="<==" onCLICK="l=(l+7)%8;chira()">
+<INPUT TYPE="button" VALUE="0/(\)" onCLICK="push(0)">
+<INPUT TYPE="button" VALUE=" . /clk" onCLICK="period()">
+<INPUT TYPE="button" VALUE="==>" onCLICK="l=(l+1)%8;chira()">
 </NOBR></TD>
 </TABLE></A>
 </TABLE>
 <BR>
 <HR>
-<FONT SIZE=4 color=7F4C00>以下は実際の車の移動の代わりのボタンです。（単位：メートル）<BR></FONT>
+<FONT SIZE=4 color=7F4C00>These buttons below are for the actual move of the car.(meter)<BR></FONT>
 <INPUT TYPE="button" VALUE="+1" onCLICK="susumu(1);">
 <INPUT TYPE="button" VALUE="+10" onCLICK="susumu(10);">
 <INPUT TYPE="button" VALUE="+100" onCLICK="susumu(100);">
 <INPUT TYPE="button" VALUE="+1000" onCLICK="susumu(1000);"><BR>
-<FONT SIZE=2 COLOR=#7F4C00>「ファイル－別名で（名前を付けて）保存、種類：（HTML）ソース」で保存していつでも遊んで下さい。<BR>
-使用方法は</FONT><FONT SIZE=2 COLOR=black>http://web.kyoto-inet.or.jp/people/t_uemura/RALLY/RALLYCOM.htm</FONT><FONT SIZE=2 COLOR=7F4C00>にあります。</FONT><A HREF="#1"  onCLICK="about()">（MRA）</A>
+<FONT SIZE=2 COLOR=#7F4C00><!-- 「ファイル－別名で（名前を付けて）保存、種類：（HTML）ソース」で保存していつでも遊んで下さい。<BR> -->
+You can learn how to play at </FONT><FONT SIZE=2 COLOR=black>http://web.kyoto-inet.or.jp/people/t_uemura/RALLY/RALLYCOM.htm</FONT><FONT SIZE=2 COLOR=7F4C00>.
+But I'm sorry for these are written only in Japanese.</FONT><A HREF="#1"  onCLICK="about()">(MRA)</A>
 </FORM>
 
 </BODY></HTML>
