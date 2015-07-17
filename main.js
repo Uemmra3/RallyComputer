@@ -28,8 +28,16 @@ function onoff() {         //電源スイッチ//
   //document.linkColor = "#FFFFFF";
   document.fgColor = "#FF9900";
   document.NONO.lt[0].checked = true;
+  enableGUI();
   fu(3);
-}  
+}
+
+function enableGUI() {
+  var elems = document.NONO.elements;
+  for (var i = 0; i < elems.length; i++){
+    elems[i].disabled = false;
+  }
+}
 //
 function second() {         //時計を進める//
   // 20050210 : 1000  = > 1010

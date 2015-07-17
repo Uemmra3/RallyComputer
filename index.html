@@ -17,7 +17,7 @@
 <A NAME="1"><TABLE BORDER=0 CELLPADDING=0>
 
 <TR><TD>
-  <BR><INPUT TYPE="button" VALUE="CP" onCLICK="if(power>0){checkpoint();fu(0);};">
+  <BR><INPUT TYPE="button" VALUE="CP" onCLICK="if(power>0){checkpoint();fu(0);};" disabled>
   </TD><TD ALIGN=CENTER>
 
   <SUB>TIM</SUB><BR><INPUT TYPE="radio" NAME="lt" onCLICK="l=0;chira(clock(tim))"></TD><TD ALIGN=CENTER>
@@ -30,41 +30,41 @@
   <SUB>SMP</SUB><BR><INPUT TYPE="radio" NAME="lt" onCLICK="l=7;chira(smp)"></TD>
 
   <TD><BR><NOBR>
-  <INPUT TYPE="button" VALUE="F/>" onCLICK="if(ent==0 || ent==3){fn=1;fu(12);};">
-  <INPUT TYPE="button" VALUE="7/**" onCLICK="push(7)">
-  <INPUT TYPE="button" VALUE="8/trp+" onCLICK="push(8)">
-  <INPUT TYPE="button" VALUE="9/trp-" onCLICK="push(9)">
+  <INPUT TYPE="button" name="btnF" VALUE="F/>" onCLICK="if(ent==0 || ent==3){fn=1;fu(12);};" disabled>
+  <INPUT TYPE="button" name="btn7" VALUE="7/**" onCLICK="push(7)" disabled>
+  <INPUT TYPE="button" name="btn8" VALUE="8/trp+" onCLICK="push(8)" disabled>
+  <INPUT TYPE="button" name="btn9" VALUE="9/trp-" onCLICK="push(9)" disabled>
   </NOBR></TD>
 
 <TR><TD>
-  <INPUT TYPE="button" VALUE="PC" onCLICK="if(power>0 && ent<=1){pathcon();fu(1);}">
+  <INPUT TYPE="button" VALUE="PC" onCLICK="if(power>0 && ent<=1){pathcon();fu(1);}" disabled>
   </TD><TD COLSPAN=3>
   <FONT SIZE=4> FUNCT</FONT></TD><TD COLSPAN=5><INPUT TYPE="text" NAME="funct" value="------" SIZE=14>
   </TD><TD><NOBR>
-  <INPUT TYPE="button" VALUE="=C=" onCLICK="cl();fu(13);">
-  <INPUT TYPE="button" VALUE="4/===" onCLICK="push(4)">
-  <INPUT TYPE="button" VALUE="5/RC+" onCLICK="push(5)">
-  <INPUT TYPE="button" VALUE="6/RC-" onCLICK="push(6)">
+  <INPUT TYPE="button" name="btnC" VALUE="=C=" onCLICK="cl();fu(13);" disabled>
+  <INPUT TYPE="button" name="btn4" VALUE="4/===" onCLICK="push(4)" disabled>
+  <INPUT TYPE="button" name="btn5" VALUE="5/RC+" onCLICK="push(5)" disabled>
+  <INPUT TYPE="button" name="btn6" VALUE="6/RC-" onCLICK="push(6)" disabled>
   </NOBR></TD>
 <TR><TD>
-  <INPUT TYPE="button" VALUE="MP" onCLICK="smp=map;map=0;fu(2);">
+  <INPUT TYPE="button" VALUE="MP" onCLICK="smp=map;map=0;fu(2);" disabled>
   </TD><TD COLSPAN=3>
   <FONT SIZE=4> FINAL</FONT></TD><TD COLSPAN=5><INPUT TYPE="text" NAME="finalsc" SIZE=14>
   </TD><TD><NOBR>
-  <INPUT TYPE="button" VALUE="ENT" onCLICK="enter()">
-  <INPUT TYPE="button" VALUE="1/OD" onCLICK="push(1)">
-  <INPUT TYPE="button" VALUE="2/F==" onCLICK="push(2)">
-  <INPUT TYPE="button" VALUE="3/+-N" onCLICK="push(3)">
+  <INPUT TYPE="button" name="btnENT" VALUE="ENT" onCLICK="enter()" disabled>
+  <INPUT TYPE="button" name="btn1" VALUE="1/OD" onCLICK="push(1)" disabled>
+  <INPUT TYPE="button" name="btn2" VALUE="2/F==" onCLICK="push(2)" disabled>
+  <INPUT TYPE="button" name="btn3" VALUE="3/+-N" onCLICK="push(3)" disabled>
   </NOBR></TD>
 <TR><TD>
   <INPUT TYPE="button" VALUE="ON" onCLICK="onoff();">
   </TD><TD COLSPAN=3>
   <FONT SIZE=4> MAPsc</FONT></TD><TD COLSPAN=5><INPUT TYPE="text" NAME="mapsc" SIZE=14>
   </TD><TD><NOBR>
-  <INPUT TYPE="button" VALUE="<==" onCLICK="l=(l+7)%8;chira()">
-  <INPUT TYPE="button" VALUE="0/(\)" onCLICK="push(0)">
-  <INPUT TYPE="button" VALUE=" . /clk" onCLICK="period()">
-  <INPUT TYPE="button" VALUE="==>" onCLICK="l=(l+1)%8;chira()">
+  <INPUT TYPE="button" name="btngt" VALUE="<==" onCLICK="l=(l+7)%8;chira()" disabled>
+  <INPUT TYPE="button" name="btn0" VALUE="0/(\)" onCLICK="push(0)" disabled>
+  <INPUT TYPE="button" name="btnP" VALUE=" . /clk" onCLICK="period()" disabled>
+  <INPUT TYPE="button" name="btnlt" VALUE="==>" onCLICK="l=(l+1)%8;chira()" disabled>
   </NOBR></TD>
 </TABLE></A>
 </TABLE>
