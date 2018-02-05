@@ -14,7 +14,7 @@
     <table border=0 cellpadding=0>
 
     <tr><td>
-        <br><input type="button" value="CP" onClick="if(power>0){checkpoint();fu(0);};" disabled>
+        <br><input type="button" value="CP" onClick="if(power_>0){checkpoint();fu(0);};" disabled>
         </td>
 
         <td align=center>
@@ -25,10 +25,10 @@
             <input type="radio" name="lt" onClick="l=1;chira(clock(st))"></td>
         <td align=center>
             <sub>AVE</sub><br>
-            <input type="radio" name="lt" onClick="l=2;chira(ave)"></td>
+            <input type="radio" name="lt" onClick="l=2;chira(ave_)"></td>
         <td align=center>
             <sub>TRP</sub><br>
-            <input type="radio" name="lt" onClick="l=3;chira(trp)"></td>
+            <input type="radio" name="lt" onClick="l=3;chira(trp_)"></td>
         <td align=center>
             <sub>RC</sub><br>
             <input type="radio" name="lt" onClick="l=4;chira(clock(rc))"></td>
@@ -43,14 +43,14 @@
             <input type="radio" name="lt" onClick="l=7;chira(smp)"></td>
 
         <td><br><nobr>
-        <input type="button" name="btnF" value="F/>" onClick="if(ent==0 || ent==3){fn=1;fu(12);};" disabled>
+        <input type="button" name="btnF" value="F/>" onClick="if(enterStatus_==0 || enterStatus_==3){fn=1;fu(12);};" disabled>
         <input type="button" name="btn7" value="7/**" onClick="push(7)" disabled>
         <input type="button" name="btn8" value="8/trp+" onClick="push(8)" disabled>
         <input type="button" name="btn9" value="9/trp-" onClick="push(9)" disabled>
         </nobr></td>
 
     <tr><td>
-        <input type="button" value="PC" onClick="if(power>0 && ent<=1){pathcon();fu(1);}" disabled>
+        <input type="button" value="PC" onClick="if(power_>0 && enterStatus_<=1){pathcon();fu(1);}" disabled>
         </td><td colspan=3>
         <font size=4> FUNCT</font></td><td colspan=5><input type="text" name="funct" value="------" size=14>
         </td><td><nobr>
@@ -60,7 +60,7 @@
         <input type="button" name="btn6" value="6/RC-" onClick="push(6)" disabled>
         </nobr></td>
     <tr><td>
-        <input type="button" value="MP" onClick="smp=map;map=0;fu(2);" disabled>
+        <input type="button" value="MP" onClick="smp=map_;map_=0;fu(2);" disabled>
         </td><td colspan=3>
         <font size=4> FINAL</font></td><td colspan=5><input type="text" name="finalsc" size=14>
         </td><td><nobr>
