@@ -7,8 +7,25 @@ describe( "clock(t) のテスト", function(){
 	});
 });         //時分秒表示にする//
 
+describe( "addzero(u) のテスト", function(){
+	it("1 = 000001", function(){
+		expect(addzero(1)).toBe('000001');
+	});
+	it("130 = 000130", function(){
+		expect(addzero(130)).toBe('000130');
+	});
+	it("91122 = 091122", function(){
+		expect(addzero(91122)).toBe('091122');
+	});
+});         //０をくっつけ６桁化//
+
+	/*
+	it("", function(){
+	}):
+	*/
+
+
 /*
-describe( "addzero(u) のテスト", function(){});         //０をくっつけ６桁化//
 describe( "push(button) のテスト", function(){});         //ボタン処理//
 describe( " period() のテスト", function(){});         //時刻合わせ及び小数点処理//
 describe( " enter() のテスト", function(){});         //エンター処理//
