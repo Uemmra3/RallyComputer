@@ -2,7 +2,7 @@
   "name": "rallycomputer",
   "version": "1.0.0",
   "description": "RallyComputer\r =============",
-  "main": "index.js",
+  "main": "main.js",
   "directories": {
     "doc": "docs"
   },
