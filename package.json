@@ -1,0 +1,29 @@
+{
+  "name": "rallycomputer",
+  "version": "1.0.0",
+  "description": "RallyComputer\r =============",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uemmra3/RallyComputer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uemmra3/RallyComputer/issues"
+  },
+  "homepage": "https://github.com/Uemmra3/RallyComputer#readme",
+  "devDependencies": {
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-jasmine": "^1.1.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "phantomjs-prebuilt": "^2.1.16"
+  }
+}
