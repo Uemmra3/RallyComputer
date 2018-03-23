@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/Uemmra3/RallyComputer#readme",
   "devDependencies": {
+    "phantomjs-prebuilt": "^2.1.1",
     "jasmine-core": "^3.1.0",
     "karma": "^2.0.0",
     "karma-jasmine": "^1.1.1",
-    "karma-phantomjs-launcher": "^1.0.4",
-    "phantomjs-prebuilt": "^2.1.1"
+    "karma-phantomjs-launcher": "^1.0.4"
   }
 }
