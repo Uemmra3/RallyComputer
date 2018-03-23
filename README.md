@@ -1,5 +1,6 @@
 RallyComputer
 =============
+[![Build Status](https://travis-ci.org/Uemmra3/RallyComputer.svg?branch=dev)](https://travis-ci.org/Uemmra3/RallyComputer)
 
 NN4とかの時代に作ってたブツを現代に再現する
 http://uemmra3.github.io/RallyComputer/
